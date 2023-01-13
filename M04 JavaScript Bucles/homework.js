@@ -138,6 +138,17 @@ function esPrimo(num) {
       if (num % i === 0) return false;
       else return true;
    }
+
+   // let contador = 1
+   // for (i = 0; i <= num; i++) {
+   //    if (num & i === 0) {
+   //       contador += 1
+   //    }
+   // }
+   // if (contador <= 2 && num != 0 && num != 1 && num >= 2) {
+   //    return true;
+   // }
+   // else return false
 }
 
 function esVerdadero(valor) {
